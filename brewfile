@@ -1,0 +1,43 @@
+# Taps
+tap "hashicorp/tap"
+
+# Formulas
+brew "hashicorp/tap/terraform"
+brew "hashicorp/tap/packer"
+brew "git"
+brew "python"
+
+# Casks
+cask "discord"
+cask "displaylink"
+cask "docker"
+cask "google-chrome"
+cask "microsoft-office"
+cask "notion"
+cask "slack"
+cask "spotify"
+cask "visual-studio-code"
+
+=begin 
+# Potentials
+cask "battle-net"
+cask "blender"
+cask "cave-story"
+cask "chatgpt"
+cask "epic-games"
+cask "final-fantasy-xiv-online"
+cask "gb-studio"
+cask "gearboy"
+cask "gimp"
+cask "godot"
+cask "league-of-legends"
+cask "loom"
+cask "mysqlworkbench"
+cask "obsidian"
+cask "old-school-runescape"
+cask "pokemon-tcg-live"
+cask "powershell"
+cask "steam"
+cask "teamviewer"
+cask "zoom"
+=end
