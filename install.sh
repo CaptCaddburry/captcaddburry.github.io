@@ -6,21 +6,21 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew tap hashicorp/tap
 
 # Formulaes
-formulaes = ("hashicorp/tap/terraform" "hashicorp/tap/packer" "git" "python" "mas")
+formulaes=("hashicorp/tap/terraform" "hashicorp/tap/packer" "git" "python" "mas")
 for i in "${formulaes[@]}"
 do
     brew install $i
 done
 
 # Casks
-casks = ("discord" "displaylink" "docker" "google-chrome" "microsoft-office" "notion" "slack" "spotify" "steam" "visual-studio-code")
+casks=("discord" "displaylink" "docker" "google-chrome" "microsoft-office" "notion" "slack" "spotify" "steam" "visual-studio-code")
 for i in "${casks[@]}"
 do
     brew install --cask $i
 done
 
 # Mac Store Apps
-mac_apps = ("379693831" "302584613")
+mac_apps=("379693831" "302584613")
 for i in "${mac_apps[@]}"
 do
     mas install $i
