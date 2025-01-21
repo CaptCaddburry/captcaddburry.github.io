@@ -23,4 +23,5 @@ brew install --cask docker
 brew install --cask xquartz
 
 # Node Packages
+npm install -g npm@latest
 npm install -g aws-azure-login
