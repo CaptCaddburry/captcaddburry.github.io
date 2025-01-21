@@ -16,7 +16,6 @@ brew install kubectl
 brew install k9s
 brew install node
 brew install rain
-brew install tfenv
 
 # Casks
 brew install --cask docker
