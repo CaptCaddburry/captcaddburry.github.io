@@ -1,4 +1,4 @@
-declare -a hashicorp = ("hashicorp/tap/terraform","hashicorp/tap/packer")
+declare -a hashicorp=("hashicorp/tap/terraform" "hashicorp/tap/packer")
 
 brew tap hashicorp/tap
 
