@@ -6,7 +6,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew tap hashicorp/tap
 
 # Formulaes
-formulaes=("act" "aws-iam-authenticator" "awscli" "hashicorp/tap/packer" "hashicorp/tap/terraform" "helm" "kubectl" "k9s" "node" "rain" "tfenv")
+formulaes=("act" "aws-iam-authenticator" "awscli" "hashicorp/tap/packer" "hashicorp/tap/terraform" "helm" "kubectl" "k9s" "node" "rain")
 for i in "${formulaes[@]}"
 do
     brew install $i
