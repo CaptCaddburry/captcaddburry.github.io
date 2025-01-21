@@ -21,3 +21,6 @@ brew install tfenv
 # Casks
 brew install --cask docker
 brew install --cask xquartz
+
+# Node Packages
+npm install -g aws-azure-login
