@@ -25,5 +25,4 @@ brew install --cask steam
 brew install --cask visual-studio-code
 
 # Mac Store Apps
-mas install 379693831 # Audible
 mas install 302584613 # Kindle
