@@ -20,7 +20,7 @@ do
 done
 
 # Mac Store Apps
-mac_apps=("379693831" "302584613")
+mac_apps=("302584613")
 for i in "${mac_apps[@]}"
 do
     mas install $i
