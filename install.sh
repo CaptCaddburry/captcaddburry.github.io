@@ -13,7 +13,7 @@ do
 done
 
 # Casks
-casks=("discord" "displaylink" "docker" "google-chrome" "microsoft-office" "moonlight" "notion" "obsidian" "slack" "spotify" "steam" "tailscale-app" "visual-studio-code")
+casks=("discord" "displaylink" "docker" "google-chrome" "microsoft-office" "moonlight" "notion" "obsidian" "slack" "spotify" "tailscale-app" "visual-studio-code")
 for i in "${casks[@]}"
 do
     brew install --cask $i
