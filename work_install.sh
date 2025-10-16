@@ -18,3 +18,10 @@ for i in "${casks[@]}"
 do
     brew install --cask $i
 done
+
+# VS Code Extensions
+extensions=("bladnman.auto-align" "ms-azuretools.vscode-containers" "jwsandeman.cyberpunk2077-theme" "ms-azuretools.vscode-docker" "docker.docker" "hashicorp.hcl" "hashicorp.terraform" "pkief.material-icon-theme" "ms-vscode.powershell" "ms-python.python")
+for i in "${extensions[@]}"
+do
+    code --install-extension $i
+done
