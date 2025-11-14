@@ -6,7 +6,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew tap hashicorp/tap
 
 # Formulaes
-formulaes=("hashicorp/tap/terraform" "hashicorp/tap/packer" "git" "python3")
+formulaes=("hashicorp/tap/terraform" "hashicorp/tap/packer" "git" "python3" "jiratui")
 for i in "${formulaes[@]}"
 do
     brew install $i
