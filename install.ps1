@@ -15,4 +15,4 @@ winget install --id Microsoft.VisualStudioCode
 winget install --id Git.Git
 winget install --id Hashicorp.Packer
 winget install --id Hashicorp.Terraform
-# winget install --id Python.Python.3.13
+winget install --id Python.Python.3
